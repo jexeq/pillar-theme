@@ -1,0 +1,19 @@
+{
+  "name": "cv_andrade",
+  "version": "1.0.0",
+  "description": "personal cv",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jexeq/pillar-theme.git"
+  },
+  "author": "jeremias exequiel andrade rosales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jexeq/pillar-theme/issues"
+  },
+  "homepage": "https://github.com/jexeq/pillar-theme#readme"
+}
