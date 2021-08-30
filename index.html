@@ -16,15 +16,18 @@
     
     <!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
+	<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+	<script src="toPDF.js"></script>
        
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
-
+	
+	
 </head> 
 
-<body>	
-
+<body >	
+	<div id="body1">
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
@@ -262,14 +265,18 @@
 					    
 				    </div>
 			    </div><!--//row-->
-		    </div><!--//resume-body-->
-		    
-		    
+		    </div>
 	    </div>
+
     </article> 
 
-    
+	</div>
+	<div>
+		<button onclick="toPDF()" >Download as PDF</button>
+	</div>
+
 
 </body>
+
 </html> 
 
